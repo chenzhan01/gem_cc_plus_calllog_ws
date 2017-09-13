@@ -37,6 +37,7 @@ public class ApplicationConfig {
         mapperScannerConfigurer.setSqlSessionFactoryBeanName("ccSqlSessionFactory");
         mapperScannerConfigurer.setBasePackage("com.futurelinkgrp.lingyi.mapper");
 //        mapperScannerConfigurer.setAnnotationClass(CCRepository.class);
+        System.out.println("");
         return mapperScannerConfigurer;
     }
 }

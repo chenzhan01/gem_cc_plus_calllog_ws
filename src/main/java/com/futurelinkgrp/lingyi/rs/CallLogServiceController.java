@@ -42,6 +42,7 @@ public class CallLogServiceController {
         } else {
             throw new Exception("msg");
         }
+        System.out.println("");
 
         return result;
     }
